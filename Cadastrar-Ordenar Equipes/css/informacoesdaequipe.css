@@ -1,0 +1,255 @@
+@charset "utf8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	background-color: #ddd;
+}
+
+#tela_principal {
+	margin-left: 80px;
+	margin-top: 60px;
+	width: 1206px;
+	height: 628px;
+	background-color: #ccc;
+}
+
+#tela_principal > header {
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #bbb;
+	width: 700px;
+	height: 50px;
+	text-align: center;
+}
+
+#tela_principal > header > h1 {
+	margin-top: 5px;
+}
+
+#fundo {
+	position: absolute;
+	margin-top: -688px;
+	width: 1366px;
+	height: 768px;
+	background-color: #000;
+	opacity: 0.8;
+	display: none;
+}
+
+#espaco_informacoes {
+	width: 1000px;
+	margin: 40px auto;
+	padding: 10px;
+	background-color: #aaa;
+}
+
+#informacoesEquipeUm {
+	width: 470px;
+	height: 140px;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#img_equipe_um {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	background-color: #bbb;
+	text-align: center;
+}
+
+#campos_equipe_um {
+	width: 300px;
+	margin-top: -75.4px;
+	margin-left: 150px;
+	padding: 10px;
+	background-color: #bbb;
+}
+
+#informacoesEquipeDois {
+	margin-left: 510px;
+	margin-top: -160px;
+	width: 470px;
+	height: 140px;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#img_equipe_dois {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	background-color: #bbb;
+	text-align: center;
+}
+
+#campos_equipe_dois {
+	width: 300px;
+	margin-top: -75.4px;
+	margin-left: 150px;
+	padding: 10px;
+	background-color: #bbb;
+}
+
+#informacoesEquipeTres {
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 470px;
+	height: 140px;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#img_equipe_tres {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	background-color: #bbb;
+	text-align: center;
+}
+
+#campos_equipe_tres {
+	width: 300px;
+	margin-top: -75.4px;
+	margin-left: 150px;
+	padding: 10px;
+	background-color: #bbb;
+}
+
+#informacoesEquipeQuatro {
+	margin-left: 510px;
+	margin-top: -160px;
+	width: 470px;
+	height: 140px;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#img_equipe_quatro {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	background-color: #bbb;
+	text-align: center;
+}
+
+#campos_equipe_quatro {
+	width: 300px;
+	margin-top: -75.4px;
+	margin-left: 150px;
+	padding: 10px;
+	background-color: #bbb;
+}
+
+#espacoBotoes {
+	width: 135px;
+	margin-left: 845px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #ccc;
+}
+
+#telaEscolherImagem {
+	position: absolute;
+	margin-left: 323px;
+	margin-top: -628px;
+	padding: 10px;
+	background-color: #aaa;
+	width: 700px;
+	height: 608px;
+	text-align: center;
+	display: none;
+}
+
+#telaEscolherImagem > header {
+	margin: 0 auto;
+	margin-top: -10px;
+	padding: 10px;
+	width: 500px;
+	height: 50px;
+	background-color: #bbb;
+}
+
+#telaEscolherImagem > header > h2 {
+	margin-top: 10px;
+}
+
+#imagemPrincipal {
+	margin: 40px auto;
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	background-color: #bbb;
+	border: 1px solid black;
+}
+
+#imagemEscolher {
+	margin: 10px auto;
+	padding: 10px;
+	width: auto;
+	height: auto;
+	background-color: #ccc;
+}
+
+#espacoBotoesPopUp {
+	width: 135px;
+	margin-left: 545px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #ccc;
+}
+
+#tl_imagem0 {
+	background-color: #ffa;
+}
+
+#tl_imagem1 {
+	background-color: #0af;
+}
+
+#tl_imagem2 {
+	background-color: #000;
+	color: #fff;
+}
+
+#tl_imagem3 {
+	background-color: #f7f;
+}
+
+#tl_imagem4 {
+	background-color: #0d5;
+}
+
+#tl_imagem5 {
+	background-color: #a00;
+}
+
+
+.add_nome_equipe {
+	width: 295px;
+}
+
+.imgs {
+	margin: 5px;
+	padding: 10px;
+	width: 75px;
+	height: 75px;
+	background-color: #bbb;
+	border: 1px solid black;
+	display: inline-block;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Informações das equipes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/informacoesdaequipe	.css">
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script> -->
+</head>
+<body>
+	<div id="container">
+		<div id="tela_principal">
+			<header>
+				<h1> Informações das Equipes </h1>
+			</header>
+			<div id="espaco_informacoes">
+				<div id="informacoesEquipeUm">
+					<figure id="img_equipe_um">
+						<img src="" alt="Image Equipe 1" />
+					</figure>
+
+					<div id="campos_equipe_um">
+						<label> Nome da equipe 1: </label> <br/>
+						<input class="add_nome_equipe" type="text" name="nomeEquipeUm" required="true"/>
+					</div>
+				</div>
+
+				<div id="informacoesEquipeDois">
+					<figure id="img_equipe_dois">
+						<img src="" alt="Image Equipe 2" />
+					</figure>
+
+					<div id="campos_equipe_dois">
+						<label> Nome da equipe 2: </label> <br/>
+						<input class="add_nome_equipe" type="text" name="nomeEquipeDois" required="true" />
+					</div>
+				</div>
+				
+				<div id="informacoesEquipeTres">
+					<figure id="img_equipe_tres">
+						<img src="" alt="Image Equipe 3" />
+					</figure>
+
+					<div id="campos_equipe_tres">
+						<label> Nome da equipe 3: </label> <br/>
+						<input class="add_nome_equipe" type="text" name="nomeEquipeTres" disabled="true"/>
+					</div>
+				</div>
+				
+				<div id="informacoesEquipeQuatro">
+					<figure id="img_equipe_quatro">
+						<img src="" alt="Image Equipe 4" />
+					</figure>
+
+					<div id="campos_equipe_quatro">
+						<label> Nome da equipe 4: </label> <br/>
+						<input class="add_nome_equipe" type="text" name="nomeEquipeQuatro" disabled="true" />
+					</div>
+				</div>
+
+				<div id="espacoBotoes">
+					<input type="button" value="Voltar" />
+					<input type="button" value="Prosseguir" disabled="true" />
+				</div>
+			</div>
+		</div>
+
+		<div id="fundo"></div>
+		
+		<div id="telaEscolherImagem">
+			<header>
+				<h2>Escolha a imagem que representará sua equipe:</h2>
+			</header>
+
+			<div id="telaImagens">
+				<figure id="imagemPrincipal">
+					<img src="" alt="Imagem principal" />
+				</figure>
+
+				<figure id="imagemEscolher">
+					<div id="tl_imagem0" class="imgs">
+						<img src="" alt="amarelo" name="imagemAmarela" />
+					</div>
+
+					<div id="tl_imagem1" class="imgs">
+						<img src="" alt="azul" name="imagemAzul" />
+					</div>
+
+					<div id="tl_imagem2" class="imgs">
+						<img src="" alt="preto" name="imagemPreta" />
+					</div>
+
+					<div id="tl_imagem3" class="imgs">
+						<img src="" alt="rosa" name="imagemRosa" />
+					</div>
+
+					<div id="tl_imagem4" class="imgs">
+						<img src="" alt="verde" name="imagemVerde" />
+					</div>
+
+					<div id="tl_imagem5" class="imgs">
+						<img src="" alt="vermelho" name="imagemVermelha" />
+					</div>
+				</figure>
+			</div>
+
+			<div id="espacoBotoesPopUp">
+				<input type="button" value="Voltar" />
+				<input type="button" value="Escolher" />
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_bt_voltar_menu.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_desbloquear_inputs.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_mouseOn_mouseOver_escolher_imagem.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_abrir_popup_escolher_imagem.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_bt_voltar_informacoes_equipe.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_mouseOn_mouseOver_popup_escolher_imagem.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_mudar_imagem_principal_popup_escolher_imagem.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_escolher_imagem_equipe.js"></script>
+<script type="text/javascript" src="../js/functions_informacoes_equipe/function_validacao_dados.js"></script>
+</html>
