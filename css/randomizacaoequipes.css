@@ -1,0 +1,93 @@
+@charset "utf8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	background-color: #ddd;
+}
+
+#telaPrincipal {
+	margin-left: 80px;
+	margin-top: 60px;
+	width: 1206px;
+	height: 628px;
+	background-color: #ccc;
+}
+
+#telaPrincipal > header {
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #bbb;
+	width: 700px;
+	height: 50px;
+	text-align: center;
+}
+
+#telaPrincipal > header > h1 {
+	margin-top: 5px;
+}
+
+#espacoInformacoes {
+	position: absolute;
+	margin-left: 243px;
+	margin-top: 40px;
+	width: 700px;
+	height: 448px;
+	padding: 10px;
+	padding-bottom: 20px;
+	background-color: #aaa;
+}
+
+#espacoBotoes {
+	margin: 0 auto;
+	margin-top: 13px;
+	padding: 10px;
+	width: 80px;
+	background-color: #ccc;
+}
+
+.ordemEquipes {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 310px;
+	height: 70px;
+	background-color: #ccc;
+}
+
+.nomeEquipes {
+	margin-left: 360px;
+	margin-top: -106px;
+	padding: 10px;
+	width: 310px;
+	height: 70px;
+	background-color: #ccc;
+	text-align: center;
+}
+
+.mostrarOrdem {
+	margin-bottom: 3.5px;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	background-color: #aaa;
+}
+
+.textoEquipe {
+	margin-bottom: 3.5px;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	background-color: #bbb;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
